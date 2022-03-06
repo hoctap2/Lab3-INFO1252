@@ -1,0 +1,41 @@
+<!doctype html> 
+<html lang="en-US"><!--declare language-->
+  <head>
+    <meta charset="UTF-8"><!--tell browser to use the UTF-8 character encoding-->
+	  <meta name="description" content="Just for practice">
+    <!--provide metadata about the HTML document-->
+    <title> Lab 3</title>
+  </head>
+  <body>
+    <form action="/action_page.php">
+      <h4>Radio Buttons</h4>
+      <input type="radio" name="gender" value="Male"> Male
+      <input type="radio" name="gender" value="Female"> Female<br>
+      <!--add two radio buttons (male&female), both with the name "gender"-->
+      <h4>Textarea</h4>
+      <textarea name="note" rows="10" cols="30"></textarea><br><!--add a text area-->
+      <h4>Drop-down List</h4>
+      <select name="cars">
+        <option value="Volvo">Volvo</option>
+        <option value="Ford">Ford</option>
+        <!--add two option elements to a drop down list-->
+      </select><br>
+      <h4>File Upload</h4>
+      <label for="myfile">Select a file:</label>
+      <input type="file" id="myfile" name="myfile"><br>
+      <!--add an input filed for a file upload-->
+      <h4>User Name & Password </h4>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username"><br><br>
+      <!--Add an input field for text, with the name "username"-->
+      <label for="pwd">Password:</label>
+      <input type="password" id="pwd" name="pwd"><br>
+      <!--Add an input field for password, with the name “password"-->
+      <h4>Submit& Reset</h4>
+      <input type="submit" value="Submit Form">
+      <!--Add a submit button to the form with the value “Submit Form”-->
+      <input type="reset" value="Reset">
+      <!--Add a submit button to the form with the value “Reset”--> 
+    </form>
+  </body>
+</html>
